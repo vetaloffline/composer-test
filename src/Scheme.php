@@ -1,5 +1,7 @@
 <?php
 
+namespace test;
+
 class Scheme
 {
     public function isFirstBigger($itemOne, $itemTwo)
