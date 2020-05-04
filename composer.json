@@ -1,0 +1,20 @@
+{
+    "name": "test/test-composer-vet",
+    "description": "descr test",
+    "authors": [
+        {
+            "name": "Vitaliy",
+            "email": "motilevskiy_v@itstep.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
